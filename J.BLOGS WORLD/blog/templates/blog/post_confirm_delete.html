@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container py-4"><h3>Delete Post</h3><p>Are you sure?</p><form method="post">{% csrf_token %}<button class="btn btn-danger">Confirm</button></form></div>
+{% endblock %}

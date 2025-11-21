@@ -1,0 +1,6 @@
+Django>=5.2.7
+python-dotenv
+Pillow
+django-crispy-forms
+crispy-bootstrap5
+mysqlclient; platform_system != "Windows"
